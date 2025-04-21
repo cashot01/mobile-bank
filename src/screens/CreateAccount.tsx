@@ -104,15 +104,15 @@ export const CreateAccountScreen = ({ navigation }: any) => {
       >
         <ScrollView contentContainerStyle={styles.scrollContainer}>
           <View style={styles.container}>
-            <Text style={styles.logo}>FiapBank</Text>
+            <Text style={styles.logo}>Mobile Bank</Text>
             <Text style={styles.title}>Criar Nova Conta</Text>
-            <Text style={styles.subtitle}>Preencha seus dados para começar</Text>
+            <Text style={styles.subtitle}>Insira seus dados para continuar</Text>
             
             <View style={styles.formGroup}>
               <Text style={styles.inputLabel}>Nome Completo</Text>
               <TextInput
                 style={[styles.input, errors.nome ? styles.inputError : null]}
-                placeholder="Digite seu nome completo"
+                placeholder="Por Favor Nome Completo"
                 placeholderTextColor={COLORS.placeholderText}
                 value={nome}
                 onChangeText={(text) => {
@@ -127,7 +127,7 @@ export const CreateAccountScreen = ({ navigation }: any) => {
               <Text style={styles.inputLabel}>CPF</Text>
               <TextInput
                 style={[styles.input, errors.cpf ? styles.inputError : null]}
-                placeholder="XXX.XXX.XXX-XX"
+                placeholder="AAA.AAA.AAA-AA"
                 placeholderTextColor={COLORS.placeholderText}
                 value={cpf}
                 onChangeText={handleCPFChange}
@@ -141,7 +141,7 @@ export const CreateAccountScreen = ({ navigation }: any) => {
               <Text style={styles.inputLabel}>Apelido (username)</Text>
               <TextInput
                 style={[styles.input, errors.apelido ? styles.inputError : null]}
-                placeholder="Escolha um nome de usuário"
+                placeholder="Nome de usuário"
                 placeholderTextColor={COLORS.placeholderText}
                 value={apelido}
                 onChangeText={(text) => {
@@ -157,7 +157,7 @@ export const CreateAccountScreen = ({ navigation }: any) => {
               <Text style={styles.inputLabel}>Senha</Text>
               <TextInput
                 style={[styles.input, errors.senha ? styles.inputError : null]}
-                placeholder="Crie uma senha segura"
+                placeholder="Insere nova senha"
                 placeholderTextColor={COLORS.placeholderText}
                 secureTextEntry
                 value={senha}

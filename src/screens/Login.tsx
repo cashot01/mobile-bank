@@ -54,15 +54,15 @@ export const LoginScreen = ({ navigation }: any) => {
       >
         <ScrollView contentContainerStyle={styles.scrollContainer}>
           <View style={styles.container}>
-            <Text style={styles.logo}>FiapBank</Text>
+            <Text style={styles.logo}>Mobile Bank</Text>
             <Text style={styles.title}>Bem-vindo de volta</Text>
-            <Text style={styles.subtitle}>Entre com seus dados para continuar</Text>
+            <Text style={styles.subtitle}>Faça Login para continuar</Text>
             
             <View style={styles.formGroup}>
               <Text style={styles.inputLabel}>Apelido</Text>
               <TextInput
                 style={[styles.input, errors.apelido ? styles.inputError : null]}
-                placeholder="Digite seu nome de usuário"
+                placeholder="nome de usuário"
                 placeholderTextColor={COLORS.placeholderText}
                 value={apelido}
                 onChangeText={(text) => {
@@ -78,7 +78,7 @@ export const LoginScreen = ({ navigation }: any) => {
               <Text style={styles.inputLabel}>Senha</Text>
               <TextInput
                 style={[styles.input, errors.senha ? styles.inputError : null]}
-                placeholder="Digite sua senha"
+                placeholder="senha"
                 placeholderTextColor={COLORS.placeholderText}
                 secureTextEntry
                 value={senha}
