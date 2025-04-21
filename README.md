@@ -46,10 +46,10 @@ Aplicativo bancário móvel desenvolvido com **React Native** e **TypeScript** u
 
 ```bash
 # clone o repositório
-git clone https://github.com/correialeo/bank-app.git
+git clone https://github.com/cashot01/mobile-bank.git
 
 # acesse o projeto
-cd bank-app
+cd mobile-bank
 
 # instale as dependências
 npm i
@@ -64,7 +64,8 @@ yarn install
 npx expo start
 ```
 
-## 👤 Autor
-Leandro Correia
 
-Projeto desenvolvido para fins acadêmicos e de prática com React Native.
+Autor: 
+Cauan Aranega Schot Passos - 2TDSPG
+
+Projeto desenvolvido com React Native para cp de mobile.
